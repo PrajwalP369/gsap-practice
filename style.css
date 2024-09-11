@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  /* background-color: black; */
+  /* background-image: url(https://64.media.tumblr.com/96eb2dfbce5f29f5ee14343e0f2046e9/658c63d55a6bdeb0-ab/s1280x1920/ef030b0f7e4a1980613824ab45f22b8b04bc409b.gif); */
+  background-image: url(https://a-static.besthdwallpaper.com/call-of-duty-modern-warfare-2-ghost-close-up-wallpaper-2880x1620-100556_52.jpg);
+  background-size: cover;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 0 30px;
+}
+
+
+#nav-part2 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+#nav h3 {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+#main h1 {
+  font-size: 150px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 120px;
+  width: 80%;
+  margin-left: 3%;
+  position: relative;
+  z-index: 10;
+
+  
+}
+
+#main h1:nth-child(2){
+  margin-top: 180px;
+}
+#main h1:nth-child(3){
+  text-align: center;
+}
+#main h1:nth-child(4){
+  text-align: center;
+}
+
+img {
+  height: 500px;
+  width: 400px;
+  position: absolute;
+  top: 18%;
+  left: 70%;
+  
+}
+#img1 {
+  rotate: 30deg;
+  border: 2px solid white;
+}
+#img2 {
+  rotate: 45deg;
+  border: 2px solid white;
+}
+#img3 {
+  rotate: 15deg;
+  border: 2px solid white;
+}
